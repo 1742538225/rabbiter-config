@@ -1,0 +1,43 @@
+{
+	"fromRabbiter":[
+		{
+			"id":"0000",
+			"details":[
+				[
+					"你好! Σ(っ °Д °;)っ , 终于等到你!"
+				]
+			],
+			"response":[
+				{
+					"content":"你等了我那么久吗?",
+					"nextRabbiter":["0001"]
+				},
+				{
+					"content":"感觉你在骗我......",
+					"nextRabbiter":["0002"]
+				}
+			]
+		},{
+			"id":"0001",
+			"details":[
+				"是的! 我在这里等了你21年。"
+			],
+			"response":[
+				{
+					"content":"......",
+					"nextRabbiter":["0002"]
+				},
+				{
+					"content":"感觉你在骗我......",
+					"nextRabbiter":["0002"]
+				}
+			]
+		},{
+			"id":"0002",
+			"details":[
+				"......我不知该怎么接了, 告辞! ヾ(￣▽￣)Bye~Bye~"
+			],
+			"response":null
+		}
+	]
+}
